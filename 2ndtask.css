@@ -1,0 +1,88 @@
+
+nav {
+background: goldenrod;
+height: 80px;
+width: 100%;
+}
+nav ul {
+float: right;
+
+}
+nav ul li {
+display: inline-block;
+margin: 20px;
+text-align: center;
+font-size: large;
+
+}
+img{
+width:70px;
+height: 70px;
+margin-left: 20px;
+margin-top: 5px;
+}
+section{
+background-image: url(./picture/bussiness.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+height: 90vh;
+}
+
+section,h2{
+text-align: center;
+color:green;
+font-size: large;
+text-transform: uppercase;
+}
+section,h2{
+color: red;
+font-size: large;
+
+}
+section,h3{
+color: yellowgreen;
+}
+button{
+    background-color: yellow;
+font-size: large;
+color: rgb(110, 61, 196);
+text-transform: uppercase;
+border-radius: 20px;
+width: 300px;
+height: 60px;
+}
+.container{
+background-image: url(./picture/bg.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+height: 90vh;
+}
+.container,h1{
+text-align: center;
+color:blueviolet;
+font-size: large;
+text-transform: uppercase;
+}
+.creative{
+    background-color:greenyellow ;
+    height: 90vh;
+    font-size: large;
+}
+form{
+    background-color: white;
+    border-radius: 30px;
+    border: 70px;
+    width: 35%;
+    height: 55%;
+    float: right;
+    margin-right: 40px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    height: 60px;
+  }
