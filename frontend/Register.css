@@ -29,6 +29,15 @@
   align-items: center;
   justify-content: center;
 }
+h1 {
+  font-size: 100px;
+  line-height: 28px;
+  width: auto;
+  color: #1877f2;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
 
 .heading {
   font-size: 24px;
@@ -62,6 +71,10 @@
   padding: 0 16px;
   width: 332px;
 }
+.login-button:disabled {
+  background-color: #d5d9de;
+  color: #1877f2;
+}
 
 .link {
   text-align: center;
@@ -78,4 +91,16 @@
   padding: 0 16px;
   padding-top: 6px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 474px) {
+  h1 {
+    font-size: 30px;
+    line-height: 28px;
+    width: auto;
+    color: #1877f2;
+    font-weight: lighter;
+    margin-top: 10px;
+    text-align: center;
+  }
 }
