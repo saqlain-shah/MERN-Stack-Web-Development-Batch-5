@@ -65,24 +65,29 @@ color:blueviolet;
 font-size: large;
 text-transform: uppercase;
 }
-.creative{
+.create{
     background-color:greenyellow ;
-    height: 90vh;
+    height: 100vh;
     font-size: large;
 }
-form{
-    background-color: white;
-    border-radius: 30px;
-    border: 70px;
-    width: 35%;
-    height: 55%;
-    float: right;
-    margin-right: 40px;
+.create img{
+    width: 50%;
+    height: 90%;
+    border-radius: 50px;
+    margin-top: 15px;
 }
+.formate,h1{
+    font-size: large;
+    font-weight: 40px;
+    float: right;
+}
+
 footer {
     background-color: black;
     color: white;
     padding: 9px 20px;
     text-align: center;
-    height: 60px;
+    height: 70px;
+   
   }
+ 
