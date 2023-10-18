@@ -1,0 +1,1015 @@
+﻿/*body
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: 9pt;
+	font-family: "MS Sans Serif";
+}*/
+
+button.jqmClose
+{
+	background: none;
+	border: 0px solid #FF9900;
+	color: #214289;
+	clear: right;
+	float: right;
+	padding: 0;
+	margin-top: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+	font-size: 8px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+button.jqmClose:active
+{
+	color: #214289;
+	font-weight: bold;
+	border: 0px solid #FF9900;
+}
+
+button.jqmClose:hover
+{
+	color: #214289;
+	font-weight: bold;
+	border: 0px solid #FF9900;
+	text-decoration: underline;
+}
+
+.horizontalRule
+{
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 0 0 5px;
+	height: 0;
+}
+
+
+/* News Letter Link Home Page */
+
+.nl_link A:link
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #ffffff;
+}
+.nl_link A:visited
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #ffffff;
+}
+.nl_link A:active
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #ffffff;
+}
+.nl_link A:hover
+{
+	text-decoration: underline;
+	color: #ffffff;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+}
+
+
+.Ann_link A:link
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 10pt;
+	color: #013952;
+}
+.Ann_link A:visited
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 10pt;
+	color: #013952;
+}
+.Ann_link A:active
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 10pt;
+	color: #013952;
+}
+.Ann_link A:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-family: Verdana,tahoma;
+	font-size: 10pt;
+}
+
+/* Other Links - Right Panel */
+.Oth_link A:link
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #013952;
+}
+.Oth_link A:visited
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #013952;
+}
+.Oth_link A:active
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #013952;
+}
+.Oth_link A:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+}
+
+
+/* Student Services links */
+.Services_link A:link
+{
+	text-decoration: underline;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #013952;
+}
+.Services_link A:visited
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #013952;
+}
+.Services_link A:active
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: #013952;
+}
+.Services_link A:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+}
+
+.horizontalRuleLight
+{
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px 0 0;
+	clear: both;
+	margin: 0 0 5px;
+	height: 0;
+}
+.menubartext
+{
+	font-size: 6pt;
+	font-family: "MS Sans Serif";
+	color: #02344D;
+}
+.tblheading
+{
+	font-family: "MS Sans Serif";
+	font-size: 11pt;
+	color: #214289;
+	font-weight: bold;
+}
+.overlayDiv
+{
+	max-width: 400px;
+	position: absolute;
+	background-color: lemonchiffon;
+	border-right: orange 1px solid;
+	border-top: orange 1px solid;
+	border-left: orange 1px solid;
+	border-bottom: orange 1px solid;
+}
+
+.tblOverlayDiv
+{
+	border-left-color: #94bee0;
+	border-bottom-color: #94bee0;
+	border-top-color: #94bee0;
+	border-right-color: #94bee0;
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+}
+
+.headerOverlayDiv
+{
+	background-color: #DED8A0;
+}
+
+.tblheadingblue
+{
+	font-family: "MS Sans Serif";
+	font-size: 11pt;
+	color: #209CCF;
+	font-weight: bold;
+}
+
+.gvHeader
+{
+	font-family: "MS Sans Serif";
+	font-size: 11pt;
+	color: #214289;
+	font-weight: bold;
+	background-color: #A1BAE5;
+}
+
+
+.gvHeader a:link
+{
+	color: #013952;
+}
+
+.gvHeader a:visited
+{
+	color: #013952;
+}
+
+.tblInfo
+{
+	background-color: #FFFFFF;
+	border: solid 1px #D4D4D4;
+}
+
+.tblInfo2
+{
+	background-color: #D4D4D4;
+	border: solid 1px #D4D4D4;
+}
+
+.tdInfoLeft
+{
+	background-color: #E6EDF7;
+	font-weight: bold;
+}
+
+.tdInfoRight
+{
+	background-color: #F4F4F4;
+}
+
+.tdDiscussion1
+{
+	background-color: #EEEEEE;
+}
+
+.tdDiscussion2
+{
+	background-color: #F4F4F4;
+}
+
+.tdCourseListUpdates
+{
+	width: 300px;
+	text-align: left;
+	vertical-align: bottom;
+	background-color: #E6EDF7;
+	color: #214289;
+	padding: 0px 0px 15px 5px;
+}
+.tdCourseListUpdates a:link
+{
+	color: #660000;
+	text-decoration: underline;
+}
+.tdCourseListUpdates a:hover
+{
+	color: #E66F0B;
+	text-decoration: underline;
+}
+.tdCourseListUpdates a:visited
+{
+	color: #660000;
+	text-decoration: underline;
+}
+
+.tdTopBarCourseHome
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarSyllabus
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarFAQs
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarGlossary
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarILinks
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarReferences
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarDownloads
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarSearch
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarAssignments
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarAnnouncements
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarQuizzes
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarMDB
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarAnnouncements
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarGDB
+{
+	background-color: #ffffff;
+	color: Black;
+}
+.tdTopBarGScheme
+{
+	background-color: #ffffff;
+	color: Black;
+}
+
+.tblrow
+{
+	background-color: #ffffff;
+}
+
+.tblrowAlt
+{
+	background-color: #E6EDF7;
+}
+.lbl_form
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #214289;
+	font-weight: bold;
+}
+.trCourseListSeparator
+{
+	background-color: #869EEA;
+}
+.txt_announcement
+{
+	color: #214288;
+}
+.txt
+{
+	font-size: 9pt;
+	font-family: "MS Sans Serif";
+}
+.txtsmall
+{
+	font-size: 7pt;
+}
+.txtlarge
+{
+	font-size: 11pt;
+}
+.txtbold
+{
+	font-weight: bold;
+}
+.txtFaqQuestion
+{
+	color: Navy;
+	font-size: 10pt;
+}
+.txtWhite
+{
+	color: #FFFFFF;
+}
+.txtOffWhite
+{
+	color: #AAAAAA;
+	font-family: Tahoma, Verdana;
+	font-size: 8pt;
+}
+.txtBlue
+{
+	color: #0000ff;
+}
+.txtGreen
+{
+	color: Green;
+}
+.txtPurple
+{
+	color: Purple;
+}
+.txtNavy
+{
+	color: Navy;
+}
+.txtOrange
+{
+	color: #FFFF00;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.txtLink
+{
+	color: Black;
+	text-decoration: none;
+}
+.error
+{
+	color: #ff0000;
+}
+
+.txt a:link
+{
+	color: White;
+}
+.txt a:visited
+{
+	color: White;
+}
+
+.txtHome_0
+{
+	color: Gray;
+}
+.txtHome_1
+{
+	color: #0000ff;
+}
+
+.pageHeading
+{
+	font-family: "MS Sans Serif";
+	font-size: 16px;
+	color: #214289;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+
+.topbartext
+{
+	font-size: 7pt;
+	font-family: "MS Sans Serif";
+	color: #25457E;
+}
+.topbartext a:link
+{
+	font-size: 7pt;
+	font-family: "MS Sans Serif";
+	color: #25457E;
+}
+.topbartext a:visited
+{
+	font-size: 7pt;
+	font-family: "MS Sans Serif";
+	color: #25457E;
+}
+
+.menubutton
+{
+	cursor: pointer;
+}
+
+.link a:link
+{
+	font-size: 7pt;
+	font-family: "MS Sans Serif";
+	color: #0000FF;
+}
+.link a:visited
+{
+	font-size: 7pt;
+	font-family: "MS Sans Serif";
+	color: #0000FF;
+}
+
+.link_library a:link
+{
+	font-size: 9pt;
+	font-family: "MS Sans Serif";
+	color: #0000FF;
+}
+.link_library a:visited
+{
+	font-size: 9pt;
+	font-family: "MS Sans Serif";
+	color: #0000FF;
+}
+
+.tabArea
+{
+	border: solid 2px #74B99A;
+}
+.tdActiveTab
+{
+	vertical-align: bottom;
+}
+.tdInActiveTab
+{
+	vertical-align: bottom;
+}
+
+/*.tabInactive {font-size: 8pt; font-family: "Verdana"; font-weight: bold; color: #FFFFFF; text-decoration: none; }
+.tabActive {font-size: 8pt; font-family: "Verdana"; font-weight: bold; color: #FF9900; text-decoration: none; }*/
+
+.control
+{
+	font-size: 8pt;
+	font-family: "MS Sans Serif";
+	border: solid 1px #D4D4D4;
+}
+.quizTimer
+{
+	background-color: #013952;
+	border: solid 1px #013952;
+	border-collapse: collapse;
+}
+.quizTimer #title
+{
+	background-color: #F4F4F4;
+}
+.quizQuestion
+{
+	background-color: #F4F4F4;
+}
+
+
+.password
+{
+	font-size: 8pt;
+	font-family: "MS Sans Serif";
+	border: solid 1px #D4D4D4;
+}
+.pstrength-minchar
+{
+	font-size: 10px;
+}
+
+
+
+/* Styles for time in the top bar */
+#t1
+{
+	white-space: nowrap;
+	font-size: 7pt;
+	color: #214289;
+	text-decoration: none;
+}
+#a1
+{
+	white-space: nowrap;
+	font-size: 7pt;
+	color: #214289;
+	text-decoration: none;
+}
+#s1
+{
+	white-space: nowrap;
+	font-size: 7pt;
+	color: #214289;
+	text-decoration: none;
+}
+
+
+/* Landing page ,Round corner */
+
+
+.Implinks A:link
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: white;
+}
+.Implinks A:visited
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: white;
+}
+.Implinks A:active
+{
+	text-decoration: none;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+	color: white;
+}
+.Implinks A:hover
+{
+	text-decoration: underline;
+	color: red;
+	font-family: Verdana,tahoma;
+	font-size: 8pt;
+}
+
+.roundcont
+{
+	width: 885px;
+	background-color: #0D67A6;
+	color: #fff;
+	vertical-align: top;
+}
+
+.roundcont p
+{
+	margin: 0px 0px;
+}
+
+.roundtop
+{
+	background: url(Images/LandingPage/tr.png) no-repeat top right;
+}
+
+.roundbottom
+{
+	background: url(Images/LandingPage/br.png) no-repeat top right;
+}
+
+img.corner
+{
+	vertical-align: top;
+	border: none;
+	padding: 0;
+	display: block !important;
+}
+
+img.bottomcorner
+{
+	vertical-align: top;
+	border: none;
+	padding: 0;
+	display: block !important;
+}
+
+.transbox
+{
+	position: absolute;
+	text-align: left;
+	left: 650px;
+	top: 45px;
+	border: 0px solid black;
+	z-index: 10 !important;
+	background-image: url(../Images/transperantPNG.png);
+}
+
+/*  Notice Board Styles */
+
+.shortdate
+{
+	background: #234187 url('Images/cal_sm.png') 0 0 no-repeat;
+	color: #FFFFFF;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	font-family: Verdana;
+}
+
+.day
+{
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+}
+
+.dayWithYear
+{
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+}
+
+.month
+{
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 100%;
+	text-align: center;
+}
+
+.monthWithYear
+{
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 100%;
+	text-align: center;
+}
+
+.year
+{
+	text-transform: uppercase;
+	font-size: 8px;
+	width: 100%;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+
+.btnSearch
+{
+	border: solid 1px #1F3977;
+	background: #E9E9E9;
+	line-height: 14px;
+	font-size: 8pt;
+	font-family: Verdana;
+}
+.btnSearch:hover
+{
+	border: solid 1px #1F3977;
+	background: #eef;
+	line-height: 14px;
+	font-size: 8pt;
+	font-family: Verdana;
+	color: #C43256;
+	cursor: pointer;
+}
+.btnSearch:active
+{
+	border: solid 1px #1F3977;
+	background: #E9E9E9;
+	line-height: 14px;
+	font-size: 8pt;
+	font-family: Verdana;
+	vertical-align: middle;
+}
+.btnSearch:visited
+{
+	border: solid 1px #1F3977;
+	background: #E9E9E9;
+	line-height: 14px;
+	font-size: 8pt;
+	font-family: Verdana;
+}
+
+/* Campus News Styles */
+.label
+{
+	font-family: Trebuchet MS;
+	color: black;
+	font-size: 9pt;
+	font-weight: normal;
+}
+.newspageheading
+{
+	color: #000000;
+	font-family: Trebuchet MS;
+	font-size: 13pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.address
+{
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	color: gray;
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.head3
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0000ff;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.label
+{
+	font-family: Sans-Serif;
+	color: #ff6600;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+.labelblack
+{
+	font-family: Trebuchet MS, arial;
+	color: #000000;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+/* callout styling created on 04-Oct-2012*/
+
+.callout
+{
+	position: relative;
+	margin: 20px 20px 10px 3px;
+	padding: 18px 20px; /*background-color: #eef4f9;*/
+	background-color: #E6EDF7; /* easy rounded corners for modern browsers */
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+.callout .notch
+{
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	margin: 0;
+	border-top: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #E6EDF7;
+	padding: 0;
+	width: 0;
+	height: 0; /* ie6 height fix */
+	font-size: 0;
+	line-height: 0; /* ie6 transparent fix */
+	_border-right-color: pink;
+	_border-left-color: pink;
+	_filter: chroma(color=pink);
+}
+
+.border-callout .border-notch
+{
+	border-bottom-color: #E6EDF7;
+	top: -11px;
+}
+
+.calloutAlternate
+{
+	position: relative;
+	margin: 20px 3px 10px 20px;
+	padding: 18px 20px;
+	background-color: #ffffff; /* easy rounded corners for modern browsers */
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #bfbfbf;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+
+.calloutAlternate .notchAlternate
+{
+	position: absolute;
+	top: -10px;
+	right: 150px;
+	margin: 0;
+	border-top: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #ffffff;
+	padding: 0;
+	width: 0;
+	height: 0; /* ie6 height fix */
+	font-size: 0;
+	line-height: 0; /* ie6 transparent fix */
+	_border-right-color: pink;
+	_border-left-color: pink;
+	_filter: chroma(color=pink);
+}
+
+.border-calloutAlternate .border-notchAlternate
+{
+	border-bottom-color: #BFBFBF;
+	top: -11px;
+}
+
+/* table operations row*/
+.tblOperationsRow
+{
+	text-align: left;
+	vertical-align: middle;
+	background-color: #E6EDF7;
+	color: #214289;
+	padding: 2px 2px 2px 2px;
+	font-size: 10pt;
+}
+
+
+/* Flash News CSS - Start */
+.flashNewsLink A:link
+{
+	color: Black;
+	text-decoration: none;
+}
+
+.flashNewsLink A:visited
+{
+	color: Black;
+	text-decoration: none;
+}
+
+.flashNewsLink A:active
+{
+	color: Black;
+	text-decoration: none;
+}
+
+.flashNewsLink A:hover
+{
+	color: Red;
+	text-decoration: underline;
+}
+
+
+
+#content-box
+{
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	margin: 0;
+	background-color: #f1c40f;
+	color: #333;
+	padding: 10px; /*top: 20px;             left: -285px;*/
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	-khtml-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	border: 2px solid #f1c40f;
+	box-shadow: 3px 3px 4px #999999;
+	border-left: 0px;
+	font-family: Verdana, Arial;
+	font-size: 10px;
+	z-index: 1;
+}
+
+
+#CloseButton
+{
+	position: absolute;
+	top: 0px;
+	left: 247px;
+	width: 5px;
+	height: 5px;
+	padding: 1px 9px 9px 10px;
+	color: #fff;
+	background-color: #e67e22;
+	-moz-border-radius: 0 5px 0 5px;
+	-webkit-border-radius: 0 5px 0 5px;
+	-khtml-border-radius: 0 5px 0 5px;
+	border-radius: 0 5px 0 5px;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#CloseButton a
+{
+	color: #fff;
+	text-decoration: none;
+	font-family: Verdana, Tahoma, Arial;
+	font-size: 9px;
+	font-weight: bold;
+}
+
+/* Flash News CSS - End */
+
