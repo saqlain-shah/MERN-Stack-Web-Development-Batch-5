@@ -7,6 +7,10 @@ let Addition = (number1, number2) => {
   let sum = number1 + number2;
   console.log("Addition :", sum);
 };
+Addition(34, 55);
+
+
+
 
 //Code Example of Subtraction
 let Subtraction = (number1, number2) => {
@@ -36,7 +40,7 @@ let Modulus = (number1, number2) => {
   console.log("Modulus :", Mod);
 };
 
-Addition(number1, number2);
+
 Addition(78, 22);
 Addition(22, 22);
 Addition(32, 41);
@@ -51,3 +55,5 @@ let Number1 = 10;
 let Number2 = 10;
 console.log("Applied Post Decrement Operator: ", Number1 * Number2--);
 console.log("Applied  Pre Increment Operator: ", ++Number1 * Number2);
+
+
