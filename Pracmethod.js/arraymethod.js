@@ -44,7 +44,7 @@ console.log("\applyuppercase");
 console.log(UpperCaseTraineeString);
 
 //LOWERCASE
-let lowerCaseTraineeString = traineeString.toLocaleLowerCase();
+let lowerCaseTraineeString = traineeString.toLowerCase();
 console.log("\apply lower case");
 console.log(lowerCaseTraineeString);
 
@@ -145,21 +145,21 @@ let filteredTraineesArray = traineesArray.filter(
 console.log("\n Apply Filter");
 console.log(filteredTraineesArray);
 
-//single parameter with with line of body 
+//single parameter with single line of body 
 a=>console.log(a);
 
-//single parameter with with multiple lines of body 
+//single parameter with multiple lines of body 
 
 a=>{
   console.log(a)
   console.log(a)
 }
 
-//multiple parameters with with  line of body 
+//multiple parameters with single line of body 
 
 (a , b)=>console.log(a ,b);
 
-//multiple parameters with with  multiple lines of body 
+//multiple parameters with multiple lines of body 
 (c , d)=>{
   console.log(c ,d)
   console.log(c ,d)
@@ -174,7 +174,7 @@ console.log("\n Apply Switch  ");
 switch (
   traineesArray[0] // Use a switch statement
 ) {
-  case "aliya":
+  case "aliya":''
     console.log("First trainee is Aliya");
     break;
   case "malika":
@@ -185,6 +185,8 @@ switch (
     break;
 }
 
+
+ 
 
 
   
