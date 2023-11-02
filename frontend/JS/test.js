@@ -15,5 +15,15 @@ console.log('**********************');
  a = 10;
  b = 25;
  sum= a+b;
-console.log(sum);
-scanner sc = new
+console.log('Addition',sum);
+diff= b-a;
+console.log('Difference',diff);
+mul=a*b;
+console.log('Multiply',mul);
+div=a/b;
+console.log('Division',div);
+
+
+//sc= name (system.in);
+//name = sc.next();
+//console.log(name);

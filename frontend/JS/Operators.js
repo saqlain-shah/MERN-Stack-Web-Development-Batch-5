@@ -1,7 +1,7 @@
 10 > 20 || (30 < 89) & true || !false;
-false || (true && true) || true;
-true && true;
-true;
+//false || (true && true) || true;
+//true && true;
+//true;
 
 let Adult = 2;
 let Infant = 3;
@@ -14,5 +14,4 @@ switch (isAllowed) {
     console.log("Not Allowed");
     break;
 }
-
-10 > 20 ? console.log("True Statement") : console.log("False Statement");
+30 > 20 ? console.log("True Statement") : console.log("False Statement");
