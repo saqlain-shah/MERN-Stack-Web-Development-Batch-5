@@ -31,6 +31,7 @@ for (var i = 1; i <= 10; i++) {
 
 //sixth loop
 for (let i = 1; i<=10; i++){
+    ("/not")
     if (i%2 ==0){
         continue;
     }else{

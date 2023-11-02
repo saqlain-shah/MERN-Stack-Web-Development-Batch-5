@@ -149,5 +149,34 @@ let trainees = [
       console.log("First trainee is not Aliya or Malika");
       break;
   }
+
+
   
+  const ages = [32, 33, 16, 40];
+const result = ages.filter(checkAdult);
+
+function checkAdult(age) {
+  return age >= 18;
+}
+  
+ //
+ let nUmberx = [2,-3,4,-4,-5,-6,8,9,7];
+ console.log(nUmberx);
+
+ //
+  positive = nUmberx.filter((numx)=>numx<=0);
+ console.log(positive);
+
+ //filter positive:
+ Evenfilter = nUmberx.filter((numb)=>numb%2==0);
+ console.log("/Even numb");
+ console.log(Evenfilter);
+
+ //Filter
+ Evnnum = nUmberx.filter(function(nomb){
+  return nomb%2==0;
+ });
+ console.log(Evnnum);
+
+
  
