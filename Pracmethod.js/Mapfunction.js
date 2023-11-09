@@ -143,3 +143,5 @@ num.forEach(myFunction);
 function myFunction(item) {
   sum += item;
 }
+
+
