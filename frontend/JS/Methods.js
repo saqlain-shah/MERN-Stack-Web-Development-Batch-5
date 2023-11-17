@@ -1,4 +1,3 @@
-
 //array of trainees name
 let trainees = [
   "aliya",
@@ -21,27 +20,28 @@ let traineeString = trainees.join(", "); // Convert array to a string separated 
 console.log("\n Apply join  ");
 console.log(traineeString);
 
-let slicedTraineeString = traineeString.slice(16, 8); // Slice a part of the string
+let slicedTraineeString = trainees.slice(16,8); // Slice a part of the string
 console.log("\n Apply slice");
 console.log(slicedTraineeString);
 
-let substringTraineeString = traineeString.substring(0, 5); // Get a substring of the string
+//substring
+let substringTraineeString = traineeString.substring(4, 10); // Get a substring of the string
 console.log("\n Apply substring");
 console.log(substringTraineeString);
 
-let replacedTraineeString = traineeString.replace("aliya", "Aliya Ejaz"); // Replace a string with another string
+let replacedTraineeString = traineestring.replace("aliya", "Aliya Ejaz"); // Replace a string with another string
 console.log("\n Apply replace  ");
 console.log(replacedTraineeString);
 
-let upperCaseTraineeString = traineeString.toUpperCase(); // Convert string to uppercase
+let upperCaseTraineeString = trainees.toUpperCase(); // Convert string to uppercase
 console.log("\n Apply toUpperCase ");
 console.log(upperCaseTraineeString);
 
-let lowerCaseTraineeString = traineeString.toLowerCase(); // Convert string to lowercase
+let lowerCaseTraineeString = trainees.toLowerCase(); // Convert string to lowercase
 console.log("\n Apply toLowerCase ");
 console.log(lowerCaseTraineeString);
 
-let concatenatedTraineeString = traineeString.concat(" are trainees."); // Concatenate a string
+let concatenatedTraineeString = traineestring.concat(" are trainees."); // Concatenate a string
 console.log("\n Apply concat ");
 console.log(concatenatedTraineeString);
 
@@ -49,7 +49,7 @@ let trimmedTraineeString = traineeString.trim(); // Trim whitespace from the beg
 console.log("\n Apply trim ");
 console.log(trimmedTraineeString);
 
-let trimmedStartTraineeString = traineeString.trimStart(); // Trim whitespace from the beginning of the string
+let trimmedStartTraineeString = traineestring.trimStart(); // Trim whitespace from the beginning of the string
 console.log("\n Apply trimStart  ");
 console.log(trimmedStartTraineeString);
 
@@ -80,6 +80,7 @@ let splitTraineeString = traineeString.split(","); // Split the string into an a
 console.log("\n Apply Split  ");
 console.log(splitTraineeString);
 
+
 // Using Array methods
 
 let traineesArray = [
@@ -105,6 +106,7 @@ traineesArray.unshift("Khadija"); // Add an element to the beginning of the arra
 console.log("\n Apply Unshift ");
 console.log(traineesArray);
 
+
 traineesArray.pop(); // Remove the last element from the array
 console.log("\n Apply Pop  ");
 console.log(traineesArray);
@@ -119,7 +121,7 @@ console.log(slicedTraineesArray);
 
 let isArray = Array.isArray(traineesArray); // Check if the variable is an array
 console.log("\n Apply is Array  ");
-console.log(isArray);
+ console.log(isArray);
 
 let arrayLength = traineesArray.length; // Get the length of the array
 console.log("\n Apply Array Length  ");
@@ -150,9 +152,3 @@ switch (
     break;
 }
 
-console.log("\n For Loop ");
-let result = "";
-for (let i = 0; i < traineesArray.length; i++) {
-  result += traineesArray[i] + " ";
-}
-console.log(result);

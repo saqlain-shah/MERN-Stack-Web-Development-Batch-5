@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event listener</title>
+</head>
+<body>
+    
+    <select name="Experties" id="my experties" onchange="fun()">
+        <Option value="1">Javascript</Option>
+        <Option value="2">Java</Option>
+        <Option value="3">C++</Option>
+        <Option value="4">HTML</HTml></Option>
+        </select>
+        
+        <script>
+            function fun(){
+                alert("option changed")
+            };
+        </script>
+
+        //example2 onchange
+
+        <select name="Student Info" onchange="Name()">
+            <Option value="1">Ali</Option>
+            <Option value="1">Hassan</Option>
+            <Option value="1">Kazim</Option>
+            <Option value="1">Muzu</Option>
+        </select>
+
+        <script>
+            function Name(){
+                alert("change")
+            }
+        </script>
+
+        <p id="demo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem recusandae reprehenderit architecto assumenda repellat labore, sit quaerat repellendus in impedit quasi est quos ex alias perspiciatis deleniti beatae itaque unde.</p>
+        <button type="button"  onclick='document.getElementById("demo").innerHTML="HELLO SKARDU"'>Click me to change the word</button>
+
+        //example2 onclick
+
+        <P id="mypara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos labore neque accusamus accusantium explicabo sequi, libero ea? Esse aperiam, modi nulla, sit, cumque illum corporis aliquid fugit repellat voluptatum a.</P>
+        
+        <button id="myid"   onclick='document.getElementById("mypara").innerHTML="Hello from me"'>click here to change</button>
+
+        <form action="myform" onsubmit="fux()"></form>
+        
+
+</body>
+</html>

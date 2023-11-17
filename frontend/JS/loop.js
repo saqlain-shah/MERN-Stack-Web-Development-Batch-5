@@ -1,21 +1,52 @@
-for (let i = 1; i <= 10; i++) {
-  if (i % 2 == 0) {
-    continue;
-  } else {
-    //console.log(i);
-  }
+//first-loop
+for (let i = 1; i <= 10; i++){
+    if (i%2==0) 
+    {
+        console.log(i)
+    }    
 }
-for (let i = 10; i >= 1; i--) {
-  //console.log(i);
+//second-loop
+for (let i = 1; i <= 10; i++){
+    if (!(i%2==0))
+    {
+        console.log(i)
+    }    
 }
-var array1 = [
-  [11, 12, 13],
-  [14, 15, 16],
-  [17, 18, 19],
-];
-for (var i = 0; i < array1.length; i++) {
-  for (var j = 0; j < array1[i].length; j++) {
-    console.log(array1[i][j]);
-  }
+
+//Third loop
+for (let a=1; a<=6; a++){
+    console.log(a)
 }
-console.table(array1);
+
+//fourth loop
+
+
+
+//fifth loop
+for (var i = 1; i <= 10; i++) {
+    let result = 4*i;
+    console.log("4 * "+i+" = "+ result )
+
+}
+
+//sixth loop
+for (let i = 1; i<=10; i++){
+    ("/not")
+    if (i%2 ==0){
+        continue;
+    }else{
+        console.log(i)
+    }
+}
+
+//seventh loop
+for (let i = 1; i >= -10; i--){
+    
+    console.log(i)
+}
+
+
+
+//Array Methods
+
+
