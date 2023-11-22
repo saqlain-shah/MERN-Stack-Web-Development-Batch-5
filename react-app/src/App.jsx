@@ -10,7 +10,6 @@ function App() {
       <h1>My First React App</h1>
       <FirstComp />
       <SecondComp />
-      <Counter />
       <Parent />
     </>
   )
