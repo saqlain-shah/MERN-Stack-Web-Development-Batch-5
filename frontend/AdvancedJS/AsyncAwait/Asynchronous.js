@@ -5,14 +5,11 @@ function helloWorld() {
     }, 2000);
   });
 }
-
-
 const msg = async function () {
   //Async Function Expression
   const msg = await helloWorld();
   console.log("Message: 1", msg);
 };
-
 const msg1 = async () => {
   //Async Arrow Function
   const msg = await helloWorld();

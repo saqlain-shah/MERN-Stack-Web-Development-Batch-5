@@ -12,4 +12,4 @@ async function msg() {
   console.log("Message:", msg);
 }
 
-msg(); // Message: Hello World! <-- after 2 seconds
+msg(); 
