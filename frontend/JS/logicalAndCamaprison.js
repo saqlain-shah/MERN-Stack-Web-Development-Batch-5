@@ -1,4 +1,4 @@
-let number1 = 10;
+let number1 = 30;
 let number2 = 20;
 let value1 = true;
 let value2 = false;
