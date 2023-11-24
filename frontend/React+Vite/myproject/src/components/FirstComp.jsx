@@ -1,6 +1,6 @@
 
 export default function FirstComp() {
   return (
-    <h2>FirstComp</h2>
+    <h2>Hello World FirstComp</h2>
   )
 }

@@ -13,6 +13,8 @@ function App() {
       <SecondComp/>
       <Counter/>
       <Parent/>
+  
+      
     </>
   )
 }
