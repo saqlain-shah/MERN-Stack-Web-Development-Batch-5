@@ -6,14 +6,13 @@ function helloWorld() {
   });
 }
 
-
 async function msg() {
   const msg = await helloWorld();
-  console.log("Message from msg1 function:", msg);
+  console.log(`${msg} from msg function`);
 }
 
 function msg1() {
-  console.log("Message from msg1 function");
+  console.log(" msg1 function");
 }
 
 msg();
