@@ -1,16 +1,13 @@
-import FirstComp from "./components/FirstComp"
-import SecondComp from "./components/SecondComp"
+//import FirstComp from "./components/FirstComp"
+//import SecondComp from "./components/SecondComp"
+//import FavoriteColor from "./components/color"
 //import ChildComponent from "./components/child"
-import Counter from "./components/counter"
-import Parent from "./components/parent"
-
+//import Parent from "./components/parent"
+import SignUpForm from "./components/SignUp"
 function App() {
   return (
     <>
-      <h1>My First React App</h1>
-      <FirstComp />
-      <SecondComp />
-      <Parent />
+      <SignUpForm />
     </>
   )
 }
