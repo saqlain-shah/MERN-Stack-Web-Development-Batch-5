@@ -48,7 +48,8 @@ const Myform = () => {
         Password:
         <input type="password"
         name="password"
-        value={password}        onChange={(e)=>setPassword(e.target.value)}
+        value={password}       
+         onChange={(e)=>setPassword(e.target.value)}
          />
     </label>
 

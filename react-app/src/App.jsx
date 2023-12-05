@@ -6,6 +6,7 @@ import MyFirstComp from './Component/MyFirstComp'
 import MySecondComponent from './Component/MySecondComponent'
 import SignupForm from './Component/NewComponent'
 import Myform from './Component/Mysignupform'
+import SignUp from './Component/Signup'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       //<Counter3/>
       <SignupForm />
      <Myform/>
+     <SignUp/>
     </> )
 }
 
