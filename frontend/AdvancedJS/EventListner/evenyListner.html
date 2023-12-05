@@ -2,12 +2,16 @@
 <html>
   <head>
     <title>Event Listeners with HTML Form</title>
+    <style>
+      .mouse {
+        border: 2px solid black;
+      }
+    </style>
     <script>
       function handleButtonClick() {
         console.log("Button clicked!");
       }
 
-      
       function handleMouseOver() {
         console.log("Mouse over the element!");
       }
@@ -23,6 +27,9 @@
       function handleKeyUp(event) {
         console.log("Key released:", event.key);
       }
+      function handleOnChange(event) {
+        console.log("User Entered:", this.key);
+      }
 
       function handleSubmit(event) {
         event.preventDefault();
@@ -33,17 +40,11 @@
   <body>
     <form onsubmit="handleSubmit(event)">
       <label for="myInput">Input:</label>
-      <input
-        type="text"
-        id="myInput"
-        onchange="console.log('Input value changed:', this.value)"
-      />
+      <input type="text" id="myInput" onchange="handleOnChange(event)" />
       <br />
       <button onclick="handleButtonClick()">Click Me</button>
       <br />
-      <div onmouseover="handleMouseOver()" onmouseout="handleMouseOut()">
-        Mouse over me
-      </div>
+
       <br />
       <input
         type="text"

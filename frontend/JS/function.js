@@ -28,3 +28,19 @@ function Add2(parameters) {}
 
 //Option 3
 const Add3 = (parameters) => {};
+
+
+
+(num1, num2) => {
+  let sum = num1 + num2;
+  return sum;
+};
+
+(num2) => {
+  let sum = num2 + num2;
+  return sum;
+};
+
+(num1, num2) => {sum = num1 + num2};
+
+() => sum = num1 + num1;
