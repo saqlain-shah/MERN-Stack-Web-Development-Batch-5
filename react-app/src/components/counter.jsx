@@ -1,27 +1,19 @@
-import { useState } from 'react';
+import { useState } from "react"
 
-const Counter = () => {
-    // State variable to track the count
+export default function Counter() {
     const [count, setCount] = useState(0);
-
-    // Function to increment the count
-    const increment = () => {
-        setCount(count + 1);
-    };
-
-    // Function to decrement the count
-    const decrement = () => {
-        setCount(count - 1);
-    };
-
+    function handleAdd() {
+        setCount(count +1)
+    }
+    function handleSub() {
+        setCount(count -1)
+    }
+    
     return (
-        <div>
-            <h2>Counter: {count}</h2>
-            <button onClick={increment}>Increment</button>
-            <button onClick={decrement}>Decrement</button>
-            <button onClick={() => console.log("Counter Value", count)}>Display </button>
-        </div>
-    );
-};
-
-export default Counter;
+        <>
+            <h4>count is: {count}</h4>
+            <button onClick={handleAdd}>Add</button>
+            <button onClick={handleSub}>Sub</button>
+        </>
+    )
+}
