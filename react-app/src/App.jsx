@@ -1,17 +1,20 @@
-//import FirstComp from "./components/FirstComp"
-//import SecondComp from "./components/SecondComp"
-//import FavoriteColor from "./components/color"
-//import ChildComponent from "./components/child"
-//import Parent from "./components/parent"
-import SignUpForm from "./components/SignUp"
-function App() {
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SignUp from './components/SignUp';
+import SignIn from './components/SignIn';
+
+const App = () => {
   return (
-    <>
-      <SignUpForm />
-    </>
-  )
-}
+    <React.Fragment>
+      <h1>Home Page</h1>
+      <Router>
+        <Routes>
+          <Route path="/register" element={<SignUp />} />
+          <Route path="/login" element={<SignIn />} />
+        </Routes>
+      </Router>
+    </React.Fragment>
+  );
+};
 
-export default App
-
-
+export default App;
