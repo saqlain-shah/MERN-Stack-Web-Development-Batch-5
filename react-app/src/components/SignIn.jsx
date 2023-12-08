@@ -18,12 +18,12 @@ const SignIn = () => {
 
     return (
         <Container>
-            <Box sx={{ mt: 8 }}>
+            <Box mt={{ mt: 8 }}>
                 <Typography variant="h4" align="center" gutterBottom>
                     Login
                 </Typography>
                 <Grid container spacing={2}>
-                    <Grid item xs={12}>
+                    <Grid item xs={8}>
                         <TextField
                     
                             fullWidth
@@ -32,8 +32,9 @@ const SignIn = () => {
                             value={loginUsername}
                             onChange={(e) => setLoginUsername(e.target.value)}
                         />
+                        <br/>
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid item xs={8} >
                         <TextField
                             fullWidth
                             label="Password"
@@ -50,7 +51,7 @@ const SignIn = () => {
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="body2" align="center">
-                            Don't have an account? <Link to="/register">Register</Link>
+                            Don't have an account? <Link to="/">Register</Link>
                         </Typography>
                     </Grid>
                 </Grid>

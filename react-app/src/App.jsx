@@ -1,43 +1,31 @@
-// App.jsx
-import Child from "./components/child"
-import Color from "./components/color"
-import Counter from "./components/Counter";
-import Counter2 from "./components/Counter2";
-import Counter3 from "./components/Counter3";
-import FirstComp from "./components/FirstComp";
-import Form from "./components/Form";
-import MyFirstComp from "./components/MyFirstComp";
-import MySecondComponent from "./components/MySecondComponent";
-import Mysignupform from "./components/Mysignupform"
-import NewComponent from "./components/NewComponent"
-import Parent from "./components/parent"
-import SecondComp from "./components/SecondComp";
-import SignIn from "./components/SignIn"
-import SignUp from "./components/SignUp";
+import React from 'react'
+import Images from './Images/Skardu pic.jpg'
+import ImgComp from "./components/ImgComp"
+import ImgComp2 from "./components/MyPic"
+import Comp1 from "./components/SignIn"
+import Comp2 from "./components/SignUp"
+import Comp3 from "./components/counter"
+import Navbar from "./components/Nabar"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
-
-
-const App = () => {
+const App =() => {
   return (
-    <div>
-      <Child/> 
-      <Color/> 
-      <Counter/>
-      <Counter2/>
-      <Counter3/>
-      <FirstComp/>
-      <Form/>
-      <MyFirstComp/>
-      <MySecondComponent/>
-      <Mysignupform/>
-      <NewComponent/>
-      <Parent/>
-      <SecondComp/>
-      <SignIn/>
-      <SignUp/>
-    </div>
-  );
-};
 
+    <>
+
+<BrowserRouter>
+<Navbar/>
+      <Routes>
+        <Route path="/" element={<ImgComp />}/>
+        <Route path="/login" element={<Comp1 />} />
+        <Route path="/register" element={<Comp2 />} />
+        <Route path="/counter" element={<Comp3 />} />
+      </Routes>
+    </BrowserRouter>
+
+       </>
+   
+    
+  )
+}
 export default App;
