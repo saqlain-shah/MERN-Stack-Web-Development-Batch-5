@@ -1,0 +1,27 @@
+.menuitem {
+  font-size: large;
+  color: black;
+  margin: 5px;
+  padding: 5px;
+  border: yellow solid 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .menuitem {
+    background: #1e2526;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menuitem {
+    background: #890e0e;
+    color: rgb(161, 156, 156);
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .menuitem {
+    background-color: rgb(132, 13, 13);
+  }
+}

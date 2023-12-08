@@ -1,0 +1,6 @@
+h1{color: rgb(189, 135, 65);}
+p{color: coral;}
+button{color: rgb(209, 210, 211); background-color: rgb(30, 240, 229); font-size: medium;}
+body{background-color: rgb(35, 25, 70)}
+.myClass{font-style: italic;font-size: xx-large;}
+p{text-transform: capitalize; border: solid;}
