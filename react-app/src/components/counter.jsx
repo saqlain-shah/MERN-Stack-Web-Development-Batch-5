@@ -1,27 +1,26 @@
-import { useState } from 'react';
+import { useState, useEffect } from "react";
 
-const Counter = () => {
-    // State variable to track the count
+export default function Counter() {
     const [count, setCount] = useState(0);
 
-    // Function to increment the count
-    const increment = () => {
+    function handleIncrement() {
         setCount(count + 1);
-    };
 
-    // Function to decrement the count
-    const decrement = () => {
-        setCount(count - 1);
-    };
+    }
+
+    function handleDecrement() {
+        count === 0 ? setCount(0) : setCount(count - 1);
+
+    }
+    useEffect(() => { console.log("Counted", count) }, [count])
 
     return (
-        <div>
-            <h2>Counter: {count}</h2>
-            <button onClick={increment}>Increment</button>
-            <button onClick={decrement}>Decrement</button>
-            <button onClick={() => console.log("Counter Value", count)}>Display </button>
-        </div>
-    );
-};
+        <>
+            <h1 style={{}}>Counter App</h1>
+            <button onClick={handleIncrement}>Increment</button>
+            <h1>{count}</h1>
 
-export default Counter;
+            <button onClick={handleDecrement}>Decrement</button>
+        </>
+    );
+}
